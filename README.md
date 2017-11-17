@@ -1,4 +1,4 @@
-# Ocrend-Framework
+# Test primera etapa selección desarrollador junior!
 
 <p align="center"><img src="https://github.com/72OTA/Tionvel/blob/master/views/app/images/tionvel.png"></p>
 <p align="center">
@@ -41,33 +41,8 @@ Para colocar el framework se requiere un servidor que cumpla con las siguientes 
 
 ## Configuración
 
-Abrir el fichero **./Ocrend/Kernel/Config/Ocrend.ini.yml*
-```yml
-site:
-  name: Nombre de su aplicación web
-  url: URL completa para acceder al framework, es importante el "/" del final
-  router:
-    path: URL sin el http/https desde la cual se entra al framework, es importante el "/" del final
-    protocol: Protocolo de acceso, por defecto siempre suele ser http a menos que se tenga un SSL
-```
-Si modificamos correctamente esos datos, y guardamos el archivo, ya podremos empezar a trabajar.
+Para ingresar al proyecto, solo basta con hacer un fork al respositorio Tionvel de github, y luego
+insertarlo en la carpeta donde esta instalado el servidor, ya sea xampp, laragon u otro a eleccion.
 
-## Hola Mundo desde consola
-Es tan sencillo como hacer lo siguiente en consola desde la ruta principal del framework
-```
-php gen.php app:cv Hola
-```
-Y luego accedemos desde la url a www.miweb.com/hola/
-
-## Documentación
-
-[Web Oficial](http://framework.ocrend.com) -
-[Comunidad para Soporte](http://foro.ocrend.com) -
-[Videos](https://www.youtube.com/playlist?list=PLDQZoQpLCoUAlWmnF8-b4KUT3-lzXAn4i)
-
-## Cómo contribuir
-
-- Realizar un fork
-- Crear una rama con el nombre del feature o bugfix
-- Realizar el pull request de la rama
-- Esperar por el merge
+Despues solo basta con ejecutar Apache podras entrar desde el navegardor a localhost/Tionvel que es
+la pagina principal.
