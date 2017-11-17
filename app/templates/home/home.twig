@@ -1,0 +1,60 @@
+{% extends 'overall/layout' %}
+{% block appBody %}
+  <body>
+    {% include 'overall/navbar' %}
+    <main role="main">
+      <!-- Comienzo de jumbotron -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-5 animated fadeInDown" id="titulo">Test primera etapa selección desarrollador junior!</h1>
+          <div class="animated zoomIn">
+            <p>Escribe un proyecto en PHP usando cualquier framework de tu elección o en php plano que cumpla con los siguientes requerimientos:</p>
+            <ul>
+              <li>La aplicación debe presentar una página al usuario con un formulario.</li>
+              <li>El formulario debe contener 4 campos de fechas y 4 campos de número natural.</li>
+              <li>Los campos deben estar pareados. A cada fecha le corresponde un campo de numero. El formulario debe tener validación (en backend) de que cada fecha es mayor a la anterior. Esto es, la fecha 2 debe ser mayor a la fecha 1, la fecha 3 debe ser mayor
+                a la fecha 2, y la fecha 4 debe ser mayor a la fecha 3.</li>
+              <li>Una vez validado el formulario, deben calcularse 4 fechas, donde cada fecha es una de las ingresadas en el formulario sumando el número en días hábiles, por ejemplo:</li>
+              <br>
+              <p>Fecha 1: 13/10/2017</p>
+              <p>Número 1: 8</p>
+              <p>Fecha calculada: 23/10/2017</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Final del div jumbotron -->
+
+      <div class="container">
+        <div class="row" id="row">
+          <div class="col-md-3 animated fadeInUpBig" id="divfun">
+            <form id="form1">
+              <div class="form-group">
+                <label for="fecha">Fecha</label>
+                <input type="date" class="form-control" id="fecha" value="{{ fecha }}">
+              </div>
+              <div class="form-group">
+                <label for="numero">Numero</label>
+                <input type="number" class="form-control" id="numero" placeholder="ingrese un numero">
+              </div>
+              <input type="button" class="btn btn-primary" onclick="calcular()" value="Calcular" id="btn1">
+            </form>
+          </div>
+
+        </div>
+        <br>
+        <hr>
+      </div>
+      <!-- /container -->
+
+    </main>
+
+    <footer class="container text-center">
+      <p>© Felipe Andres Andrade Valenzuela 2017</p>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=15fc69306faecdd8" target="_blank">Contacto</a>
+    </footer>
+  </body>
+{% endblock %}
+{% block appScript %}
+  <!-- SCRIPTS -->
+{% endblock %}
