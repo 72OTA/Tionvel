@@ -1,13 +1,9 @@
 # Ocrend-Framework
 
-<p align="center"><img src="http://ocrend.com/views/app/images/logo.png"></p>
+<p align="center"><img src="https://github.com/72OTA/Tionvel/blob/master/views/app/images/tionvel.png"></p>
 <p align="center">
-<a href="https://scrutinizer-ci.com/g/prinick96/Ocrend-Framework/" target="_blank"><img src="https://scrutinizer-ci.com/g/prinick96/Ocrend-Framework/badges/quality-score.png?b=master" alt="Scrutinizer 9.36" /></a>
-<img src="https://scrutinizer-ci.com/g/prinick96/Ocrend-Framework/badges/build.png?b=master" alt="Build Passed" />
-<img src="https://img.shields.io/packagist/l/doctrine/orm.svg" alt="Hecho en PHP 7" />
-<img src="https://img.shields.io/badge/php-7-blue.svg" alt="Licencia MIT" />
-<img src="https://img.shields.io/badge/stable-2.0.5-blue.svg" alt="Versión Estable" />
-</p>
+
+
 
 ## Introducción
 ### ¿Qué es Ocrend Framework 2?
